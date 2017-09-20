@@ -1,3 +1,3 @@
-#!/bin/env bash
+#!/bin/bash
 
 echo "The curl command works!"

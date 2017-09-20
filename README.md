@@ -18,5 +18,5 @@ has HTTPS.
 As root on your ubuntu server, have internet access, and run this:
 ```
 curl https://raw.githubusercontent.com/kylep/basementCloud/master/install.sh \
-  > basementCloud.sh && chmod basementCloud.sh  && ./basementCloud.sh
+  > basementCloud.sh && chmod 755 basementCloud.sh  && ./basementCloud.sh
 ```
