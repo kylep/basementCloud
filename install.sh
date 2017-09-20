@@ -1,3 +1,3 @@
 #!/bin/env bash
 
-apt install -y chef
+echo "The curl command works!"
