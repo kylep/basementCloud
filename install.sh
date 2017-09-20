@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "The curl command works!"
+echo "The curl command works! 0"
