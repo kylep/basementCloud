@@ -11,8 +11,8 @@ apt install -y git
 git clone https://github.com/kylep/basementCloud.git
 
 # distribute the files
-cp -r chef/etc/* /etc/chef/
-cp -r chef/cookbooks/bcloud /var/chef/cookbooks
+cp -r basementCloud/chef/etc/* /etc/chef/
+cp -r basementCloud/chef/cookbooks/bcloud /var/chef/cookbooks
 
 # run the automation
 chef-solo
