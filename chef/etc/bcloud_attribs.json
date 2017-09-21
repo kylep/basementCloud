@@ -1,0 +1,6 @@
+{
+  "run_list": [
+      "recipe[bcloud::env_config]"
+  ],
+  "home_directory": "/home/kyle/"
+}

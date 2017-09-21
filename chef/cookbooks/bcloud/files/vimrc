@@ -1,0 +1,17 @@
+syntax on " syntax highlighting
+set tabstop=2 shiftwidth=2 expandtab " tab 2 spaces
+"ruler at 80 chars
+set colorcolumn=80
+highlight colorcolumn ctermbg=darkyellow ctermfg=black
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+" f5 clears trailing whitespace
+nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
+" code indentation
+set autoindent
+" word wrap
+set nowrap
+" undo can be kinda broken if it goes to 'vi mode'. This prevents that
+set nocompatible
+" make comments not be dark blue on black
+set bg=dark
