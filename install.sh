@@ -12,7 +12,7 @@ git clone https://github.com/kylep/basementCloud.git
 
 # distribute the files
 cp -r basementCloud/chef/etc/* /etc/chef/
-cp -r basementCloud/chef/cookbooks/bcloud /var/chef/cookbooks
+cp -r basementCloud/chef/cookbooks /var/chef/
 
 # run the automation
 chef-solo
