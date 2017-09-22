@@ -20,3 +20,6 @@ As root on your ubuntu server, have internet access, and run this:
 curl -s https://raw.githubusercontent.com/kylep/basementCloud/master/install.sh \
   > bcloud.sh && chmod 755 bcloud.sh  && ./bcloud.sh
 ```
+
+Once everything is installed, you need to manually install the tmux plugins.
+In tmux, type `I, that will install them. You can now use the server as usual.
