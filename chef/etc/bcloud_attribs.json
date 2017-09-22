@@ -1,6 +1,8 @@
 {
   "run_list": [
-      "recipe[bcloud::env_config]"
+      "recipe[bcloud::env_config]",
+      "recipe[bcloud::kvm]",
+      "recipe[bcloud::xinit]"
   ],
   "home_directory": "/home/ubuntu"
 }
