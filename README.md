@@ -1,3 +1,10 @@
+# This project is dead
+I just use Kolla-Ansible now, so there's no need for my own cloud building code. 
+I'm just leaving this up, for now, for reference purposes.
+
+---
+
+
 # basementCloud
 Standalone private cloud for my personal development projects.
 Built to be deployed on a beefy single 2U supermicro server.
